@@ -80,7 +80,7 @@ import Prelude        ()
 import Prelude.Compat hiding (filter, foldr, lookup, map, null)
 
 import           Control.Arrow                   (first, second)
-import           Data.Aeson
+import           Data.Aeson                      hiding (ToJSONKey,FromJSONKey,toJSONKey,toJSONKeyList)
 import qualified Data.Aeson.Types                as Aeson
 import           Data.Data                       (Data, Typeable)
 import qualified Data.Foldable                   as F
